@@ -53,5 +53,9 @@ class RecFunSuite extends munit.FunSuite:
     assertEquals(pascal(1, 3), 3)
   }
 
+//  test("pascal: col=2,row=5") {
+//    assertEquals(pascalCustom(3, 5), 10)
+//  }
+
   import scala.concurrent.duration.*
   override val munitTimeout = 10.seconds
